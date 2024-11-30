@@ -1,0 +1,35 @@
+Essential Backend Questions
+
+Backend Architecture
+
+1 What is the purpose of an ORM like Sequelize in a backend application?
+2 How does Express handle routes and middleware?
+3 Explain the difference between GET, POST, PUT, and DELETE methods in a RESTful API.
+4 Why do we use .env files in backend applications, and what is stored in them?
+5 What is the role of CORS in a web application?
+
+Authentication & IAM
+
+6 What is a JSON Web Token (JWT), and how is it used for authentication?
+7 Explain the difference between authentication and authorization.
+8 How does bcrypt ensure password security?
+9 What are some common vulnerabilities in authentication flows that developers should avoid?
+10 How can session management be implemented securely?
+
+Database Management
+
+11 Describe the differences between relational and NoSQL databases.
+12 How are relationships defined in Sequelize models?
+13 What is the purpose of migrations in a Sequelize project?
+14 Why is it important to index database columns used in queries?
+15 What are Entity-Relationship Diagrams (ERDs), and how are they helpful?
+
+Integration of Frontend and Backend
+
+16 How does a frontend application consume an API using Axios or fetch?
+17 What is the significance of HTTP status codes in API responses?
+18 Explain how data validation is handled at the backend.
+19 What is the role of middleware in Express applications?
+20 How can we prevent Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) attacks?
+
+

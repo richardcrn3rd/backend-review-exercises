@@ -1,0 +1,33 @@
+Answer Sheet for Backend Questions
+
+Backend Architecture
+
+1 Sequelize simplifies database operations by mapping database tables to JavaScript objects, enabling query and schema management using a consistent API.
+2 Express handles routes by defining URL paths and corresponding HTTP methods. Middleware processes requests and responses.
+3 GET retrieves data, POST creates new resources, PUT updates existing resources, and DELETE removes resources.
+4 .env files store environment-specific variables like database credentials or API keys securely outside the codebase.
+5 CORS allows or restricts resource sharing across different origins to ensure secure interactions between frontend and backend.
+
+Authentication & IAM
+
+6 JWT is a compact, self-contained token used to verify user identity. It is sent with requests to authenticated routes.
+7 Authentication verifies identity (e.g., login). Authorization determines what resources the user can access.
+8 bcrypt hashes passwords with added salt, making them resistant to brute force or dictionary attacks.
+9 Vulnerabilities include weak password policies, improper session management, and insecure token storage.
+10 Use secure, HTTP-only cookies for session tokens and implement logout mechanisms to invalidate sessions.
+
+Database Management
+
+11 Relational databases use structured tables and relationships; NoSQL is schema-less and designed for unstructured data.
+12 Sequelize uses hasMany, belongsTo, and belongsToMany to define relationships between models.
+13 Migrations manage database schema changes, enabling version control and consistency.
+14 Indexing improves query performance by allowing the database to find rows faster.
+15 ERDs visually represent database structure, showing tables and their relationships.
+
+Integration of Frontend and Backend
+
+16 Frontend apps make HTTP requests using Axios or fetch to retrieve or send data to APIs.
+17 Status codes (e.g., 200 for success, 404 for not found) indicate the result of an API request.
+18 Backend validates inputs using libraries or custom checks to ensure data integrity.
+19 Middleware intercepts requests/responses to perform operations like authentication or logging.
+20 Use input sanitization, secure cookies, and CSRF tokens to prevent XSS and CSRF attacks.
