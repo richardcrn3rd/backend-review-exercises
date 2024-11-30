@@ -31,5 +31,3 @@ Integration of Frontend and Backend
 18 Explain how data validation is handled at the backend.
 19 What is the role of middleware in Express applications?
 20 How can we prevent Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) attacks?
-
-
