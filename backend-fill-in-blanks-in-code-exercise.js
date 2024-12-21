@@ -1,9 +1,18 @@
 // 1. Define an Express route for fetching all places:
+// 2. Added error handling
+const express = require('express');
+const app = express();
+const { Place } = require('./models');
 
 app.get('/places', async (req, res) => {
-    const places = await _____;
-    res.json(places);
+    try {
+        const places = await Place.findAll();
+        res.json(places);
+    } catch (error) {
+        res.status(500).json({ error: 'Not a place' });
+    }
 });
+
 
 // Fill in the missing function to fetch all places.
 // Reference: backend/controllers/places.js, Line 9
